@@ -1,0 +1,15 @@
+[package]
+name = "wp-wordcount-rs"
+version = "0.1.0"
+edition = "2024"
+description = "Rust port of @wordpress/wordcount — word, character, and character-excluding-spaces counting with HTML/shortcode stripping"
+license = "GPL-2.0-or-later"
+repository = "https://github.com/bhubbard/wp-wordcount-rs"
+homepage = "https://github.com/bhubbard/wp-wordcount-rs"
+documentation = "https://docs.rs/wp-wordcount-rs"
+keywords = ["wordpress", "gutenberg", "wordcount", "text-processing"]
+categories = ["text-processing"]
+readme = "README.md"
+
+[dependencies]
+regex = "1.10"
