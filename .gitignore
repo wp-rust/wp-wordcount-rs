@@ -1,5 +1,9 @@
-/target/
+/target
+**/*.rs.bk
 Cargo.lock
+node_modules
+dist
+build
+.idea
+.vscode
 .DS_Store
-.idea/
-*.swp
